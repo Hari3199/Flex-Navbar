@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Navbar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <style>
+        nav{
+            margin: 50px 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .menu{
+            flex-basis: 60%;
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            align-items: center;
+        }
+        .navbuttons :nth-child(1){
+            height: 50px;
+            background-color: #d1f4e0 ;
+            color: #848cd6;
+            border: none;
+            border-radius: 10px;
+            padding: 15px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .navbuttons :nth-child(2){
+            height: 50px;
+            padding: 15px;
+            border: 1px solid #ed0331;
+            background-color: white;
+            color: #ed0331;
+            border-radius: 10px;
+            margin-left: 50px;
+            font-family: 'Open Sans', sans-serif;
+        }
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/logo.png" alt="masai logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li>COURSES</li>
+                <li>FEES & ISA</li>
+                <li>ABOUT US</li>
+                <li>HIRE FROM US</li>
+                <li>FAQ</li>
+                <li>EVENTS</li>
+            </ul>
+        </div>
+        <div class="navbuttons">
+            <input type="button" value="REFER & EARN">
+            <input type="button" value="LOGIN">
+        </div>
+    </nav>
+</body>
+</html>
